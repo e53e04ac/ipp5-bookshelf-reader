@@ -1,0 +1,32 @@
+{
+  "name": "ipp5-bookshelf-reader",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "author": "e53e04ac",
+  "homepage": "https://github.com/e53e04ac/ipp5-bookshelf-reader#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e53e04ac/ipp5-bookshelf-reader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/e53e04ac/ipp5-bookshelf-reader/issues"
+  },
+  "type": "module",
+  "types": "./types.d.ts",
+  "main": "main.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "date-time": "github:e53e04ac/date-time",
+    "event-emitter": "github:e53e04ac/event-emitter",
+    "file-entry": "github:e53e04ac/file-entry",
+    "hold": "github:e53e04ac/hold",
+    "ipp5-types": "github:e53e04ac/ipp5-types"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18"
+  }
+}
