@@ -19,6 +19,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+    "node": ">=18"
+  },
   "dependencies": {
     "date-time": "github:e53e04ac/date-time",
     "event-emitter": "github:e53e04ac/event-emitter",
