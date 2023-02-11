@@ -10,7 +10,7 @@ import { Ipp5BookshelfReader } from 'e53e04ac/ipp5-bookshelf-reader';
 
 ~~~~~ mermaid
 graph RL;
-  A(["e53e04ac/ipp5-bookshelf-reader"]);
+  A(["package.json"]);
   subgraph "dependencies";
     B_0(["e53e04ac/date-time"]);
     B_1(["e53e04ac/event-emitter"]);
@@ -21,57 +21,64 @@ graph RL;
     B_4(["e53e04ac/file-entry"]);
     B_5(["e53e04ac/ipp5-types"]);
   end;
-  A --reference--> B_0;
-  A --reference--> B_1;
-  A --reference--> B_2;
-  A --reference--> B_3;
-  A --reference--> B_4;
-  A --reference--> B_5;
-  click B_0 "https://github.com/e53e04ac/date-time/tree/0aa67ba78d80875a0ff83b26e2183327890420b4";
-  click B_1 "https://github.com/e53e04ac/event-emitter/tree/289e6320381f1be4d43177944eca0a12b665c4f7";
-  click B_2 "https://github.com/e53e04ac/hold/tree/2143f5f52192ae4156ea0af80d41c87c55355e9c";
+  A ----> B_0;
+  A ----> B_1;
+  A ----> B_2;
+  A ----> B_3;
+  A ----> B_4;
+  A ----> B_5;
+  click B_0 "https://github.com/e53e04ac/date-time/tree/4fd63ae52ea7346e85ed0a355f4c4b72c713345a";
+  click B_1 "https://github.com/e53e04ac/event-emitter/tree/0c338d821268a5f0aaa42481216fd2e73c8734c9";
+  click B_2 "https://github.com/e53e04ac/hold/tree/285d028e225a7e75747417c3ed6b1ca0d5f52f6a";
   click B_3 "https://www.npmjs.org/package/@types/node/v/18.13.0";
-  click B_4 "https://github.com/e53e04ac/file-entry/tree/923119d07163b8f91b6138367a04760041225a06";
-  click B_5 "https://github.com/e53e04ac/ipp5-types/tree/f66ddbd49c9601df9aea4cefdbb3e5c3e65427f5";
+  click B_4 "https://github.com/e53e04ac/file-entry/tree/54166105381939e5a1c4dee0af1f44705e5f44bc";
+  click B_5 "https://github.com/e53e04ac/ipp5-types/tree/ef144d850d518b40703ea085cb940b3ec452bde2";
 ~~~~~
 
 ~~~~~ mermaid
 graph LR;
-  subgraph "e53e04ac/ipp5-bookshelf-reader"
-    C0("index.mjs");
-    C1("index.d.ts");
+  A(["index.mjs"])
+  subgraph "event-emitter";
+    B_0_0(["EventEmitter"]);
   end;
-  subgraph "event-emitter"
-    D0(["EventEmitter"]);
+  subgraph "hold";
+    B_1_0(["hold"]);
+    B_1_1(["unwrap"]);
   end;
-  subgraph "hold"
-    D1(["hold"]);
-    D2(["unwrap"]);
-    D5(["Get"]);
-    D6(["ValueOrGet"]);
+  B_0_0 ----> A;
+  B_1_0 ----> A;
+  B_1_1 ----> A;
+~~~~~
+
+~~~~~ mermaid
+graph LR;
+  A(["index.d.ts"])
+  subgraph "date-time";
+    B_0_0(["DateTime"]);
   end;
-  subgraph "date-time"
-    D3(["DateTime"]);
+  subgraph "event-emitter";
+    B_1_0(["EventEmitter"]);
   end;
-  subgraph "file-entry"
-    D4(["FileEntry"]);
+  subgraph "file-entry";
+    B_2_0(["FileEntry"]);
   end;
-  subgraph "ipp5-types"
-    D7(["Ipp5DailySummaryData"]);
-    D8(["Ipp5MenuData"]);
-    D9(["Ipp5MonthlySummaryData"]);
-    D10(["Ipp5YearlySummaryData"]);
+  subgraph "hold";
+    B_3_0(["Get"]);
+    B_3_1(["ValueOrGet"]);
   end;
-  D0 --import--> C0;
-  D1 --import--> C0;
-  D2 --import--> C0;
-  D3 --import--> C1;
-  D0 --import--> C1;
-  D4 --import--> C1;
-  D5 --import--> C1;
-  D6 --import--> C1;
-  D7 --import--> C1;
-  D8 --import--> C1;
-  D9 --import--> C1;
-  D10 --import--> C1;
+  subgraph "ipp5-types";
+    B_4_0(["Ipp5DailySummaryData"]);
+    B_4_1(["Ipp5MenuData"]);
+    B_4_2(["Ipp5MonthlySummaryData"]);
+    B_4_3(["Ipp5YearlySummaryData"]);
+  end;
+  B_0_0 ----> A;
+  B_1_0 ----> A;
+  B_2_0 ----> A;
+  B_3_0 ----> A;
+  B_3_1 ----> A;
+  B_4_0 ----> A;
+  B_4_1 ----> A;
+  B_4_2 ----> A;
+  B_4_3 ----> A;
 ~~~~~
