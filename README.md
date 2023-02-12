@@ -31,8 +31,8 @@ graph RL;
   click B_1 "https://github.com/e53e04ac/event-emitter/tree/58fd3772aa6977c80111d1af5425c38551c0da3e";
   click B_2 "https://github.com/e53e04ac/hold/tree/5dd6f94b8ecd94f98219a7afae52320676380c27";
   click B_3 "https://www.npmjs.org/package/@types/node/v/18.13.0";
-  click B_4 "https://github.com/e53e04ac/file-entry/tree/1e3035ecbfc2497f07f1c6d1664936e5b532465e";
-  click B_5 "https://github.com/e53e04ac/ipp5-types/tree/e950b5bccb9901b27ada132a459c0117aa587939";
+  click B_4 "https://github.com/e53e04ac/file-entry/tree/5e7bd3bb6438d7a2d7019e184729b9390342bb7d";
+  click B_5 "https://github.com/e53e04ac/ipp5-types/tree/228a79560e81a38fca36baec24e5729d1f36bb9f";
 ~~~~~
 
 ~~~~~ mermaid
