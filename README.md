@@ -27,11 +27,11 @@ graph RL;
   A ----> B_3;
   A ----> B_4;
   A ----> B_5;
-  click B_0 "https://github.com/e53e04ac/date-time/tree/e48246dc663b1ca6663b2ec4e2699d6fef5a515e";
-  click B_1 "https://github.com/e53e04ac/event-emitter/tree/b3a7678f84ede6ae2111a8802360b326a57d3ef2";
+  click B_0 "https://github.com/e53e04ac/date-time/tree/bdcf01ee6506eacf5857ad340426e2befb2b3a64";
+  click B_1 "https://github.com/e53e04ac/event-emitter/tree/93b9f205a7be92bb920d2d4f13efa78be7b4ba5d";
   click B_2 "https://github.com/e53e04ac/hold/tree/b0b5ef032800af76c6e7ae27472dbf25a04a947d";
   click B_3 "https://www.npmjs.org/package/@types/node/v/18.13.0";
-  click B_4 "https://github.com/e53e04ac/file-entry/tree/429c78131e3cf32e41b18aeb702195320736eea8";
+  click B_4 "https://github.com/e53e04ac/file-entry/tree/c0427d9ba9c8481a9e2acf4af4e7aa46b96314a9";
   click B_5 "https://github.com/e53e04ac/ipp5-types/tree/86f5b3a08debb8d9d9e48753cecd00bfd5b4d6a2";
 ~~~~~
 
@@ -57,8 +57,9 @@ graph RL;
 ~~~~~ mermaid
 graph RL;
   subgraph "e53e04ac/ipp5-bookshelf-reader";
-    E_0(["type Ipp5BookshelfReader"]);
-    E_1(["const Ipp5BookshelfReader"]);
+    E_0(["namespace Ipp5BookshelfReader"]);
+    E_1(["type Ipp5BookshelfReader"]);
+    E_2(["const Ipp5BookshelfReader"]);
   end;
   M(["index.d.ts"])
   subgraph "date-time";
@@ -91,4 +92,5 @@ graph RL;
   M ----> I_4_3;
   E_0 ----> M;
   E_1 ----> M;
+  E_2 ----> M;
 ~~~~~
