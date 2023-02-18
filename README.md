@@ -27,12 +27,12 @@ graph RL;
   A ----> B_3;
   A ----> B_4;
   A ----> B_5;
-  click B_0 "https://github.com/e53e04ac/date-time/tree/87fffc05dcc08cfe9659b652c44bde6e8eb956d2";
-  click B_1 "https://github.com/e53e04ac/event-emitter/tree/9a08c4203bfae12e94f36c9496c256c69fdd2277";
-  click B_2 "https://github.com/e53e04ac/hold/tree/49707680ccdf4c5673f64ff0bab30f408269b328";
-  click B_3 "https://www.npmjs.org/package/@types/node/v/18.14.0";
-  click B_4 "https://github.com/e53e04ac/file-entry/tree/c2cb299755ce1e1acd4da616865b44ea054e9291";
-  click B_5 "https://github.com/e53e04ac/ipp5-types/tree/d5f53a3728d786e9e981279acde3ea9e913df1b8";
+  click B_0 "https://github.com/e53e04ac/date-time/tree/3a4252375ebbbde82bc7305e2f0713d40921bea2";
+  click B_1 "https://github.com/e53e04ac/event-emitter/tree/19614365368936f6974a633d25a1109a3465a99d";
+  click B_2 "https://github.com/e53e04ac/hold/tree/3191dd4704f3e5f90d6c27f288ede7700f5fdb66";
+  click B_3 "https://www.npmjs.com/package/@types/node/v/18.14.0";
+  click B_4 "https://github.com/e53e04ac/file-entry/tree/c972d64414ab71efd73ea068fd42583938be938c";
+  click B_5 "https://github.com/e53e04ac/ipp5-types/tree/a52c2b739c3d68e21dd63da9cb3e603732acc3d1";
 ~~~~~
 
 ~~~~~ mermaid
